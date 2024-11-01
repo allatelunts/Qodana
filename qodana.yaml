@@ -1,2 +1,6 @@
 version: "1.0"
-bootstrap: pip install -r requirements.txt
+linter: jetbrains/qodana-python-community:2024.1
+profile:
+  name: qodana.recommended
+include:
+  - name: CheckDependencyLicenses
