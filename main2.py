@@ -62,7 +62,7 @@ def test_link(driver):
 
 
 def test_xpath(driver):
-    driver.get('https://www.qa-practice.com/elements/input/simple')
+    driver.get'https://www.qa-practice.com/elements/input/simple'
     input_element = driver.find_element(By.XPATH, '//*[@placeholder="Submit me"]')
     input_element.send_keys('hello')
     input_element.send_keys(Keys.ENTER)

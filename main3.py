@@ -74,4 +74,4 @@ def test_product_price(driver):
     driver.get('https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html')
     prices = driver.find_elements(By.CLASS_NAME, 'price')
     for price in prices:
-        print(price.text)
+    print(price.text)
